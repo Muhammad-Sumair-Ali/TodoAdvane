@@ -1,0 +1,11 @@
+label{
+  margin-right: 15px !important;
+}
+.font-italic{
+  font-style:italic !important;
+}
+.navbar{
+  background:#0C2340;
+color:white;
+  /* background: linear-gradient(90deg, rgba(3,2,31,1) 72%, rgba(4,3,64,1) 100%, rgba(95,161,175,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); */
+}
