@@ -1,17 +1,19 @@
-## Running React on Replit
+# Todo List Advance by Hadi e Learning
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Overview
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Todo List Advance is a React application that allows users to manage a list of tasks. Users can add new tasks, edit existing tasks, mark tasks as completed, and delete tasks. The application persists data using `localStorage`, ensuring that the task list is saved even when the browser is closed or refreshed.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## Features
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+- **Add Task:** Users can add new tasks with a name and description.
+- **Edit Task:** Users can edit the name, description, and completion status of existing tasks.
+- **Delete Task:** Users can remove tasks from the list.
+- **Persist Data:** Task list data is stored in `localStorage` for persistence.
+- **Filter Tasks:** Option to filter and display only completed tasks.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## Installation
 
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/todo-list-advance.git
